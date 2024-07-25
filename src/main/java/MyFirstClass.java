@@ -1,6 +1,6 @@
 public class MyFirstClass {
 
-    private int test = 0;
+    private int test = 1;
 
     public static void main(String[] args) {
 
