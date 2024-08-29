@@ -1,7 +1,9 @@
 package ParkingLot;
+
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
+
 @Getter
 @Setter
 @ToString
@@ -9,7 +11,6 @@ public class ParkingSpot {
 
     private Vehicle vehicle;
     VehicleType type;
-
     private boolean isOccupied;
     private int Id;
 
@@ -21,18 +22,16 @@ public class ParkingSpot {
 
     }
 
-    public boolean isOccupied() {
-        return isOccupied;
-    }
-
     public boolean parkVehicle(Vehicle vehicle) {
         if (!isOccupied && (vehicle.getType() == this.type || this.type == null)) {
             this.vehicle = vehicle;
             this.isOccupied = true;
             return true;
 
-        } else return false;
-
+        }
+        else {
+            return false;
+        }
     }
 
 
@@ -42,7 +41,9 @@ public class ParkingSpot {
             this.isOccupied = false;
             return true;
         }
-        return false;
+        else {
+            return false;
+        }
     }
 
 
