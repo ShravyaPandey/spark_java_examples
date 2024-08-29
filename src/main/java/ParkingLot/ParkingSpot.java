@@ -1,44 +1,48 @@
 package ParkingLot;
-
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-
 @Getter
 @Setter
 @ToString
 public class ParkingSpot {
 
     private Vehicle vehicle;
-    private boolean isOccupied;
-    //private String type;
-    private String Id; // make it id
+    VehicleType type;
 
-    public ParkingSpot(String Id, String type) {
-        //this.type = type;
+    private boolean isOccupied;
+    private int Id;
+
+    public ParkingSpot(int Id, VehicleType type) {
+        this.type = type;
         this.vehicle = null;
         this.Id = Id;
         this.isOccupied = false;
 
     }
 
+    public boolean isOccupied() {
+        return isOccupied;
+    }
 
-    public void parkVehicle(Vehicle vehicle){ // how can i modify this function
-        if(!isOccupied) {
+    public boolean parkVehicle(Vehicle vehicle) {
+        if (!isOccupied && (vehicle.getType() == this.type || this.type == null)) {
             this.vehicle = vehicle;
-            //this.type=vehicle.getType();
-            this.isOccupied=true;
-            System.out.println("Parked Vehicle"); // display
-        }
-        else {
-            System.out.println("Parking spot is Occupied"); // how
-        }
+            this.isOccupied = true;
+            return true;
+
+        } else return false;
 
     }
-    public void unParkVehicle(){
-        this.vehicle = null;
-        this.isOccupied=false;
-        System.out.println("Un parked Vehicle");
+
+
+    public boolean unParkVehicle() {
+        if (isOccupied) {
+            this.vehicle = null;
+            this.isOccupied = false;
+            return true;
+        }
+        return false;
     }
 
 

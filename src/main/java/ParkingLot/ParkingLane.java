@@ -1,29 +1,40 @@
 package ParkingLot;
-
-
+import lombok.Getter;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
-
+@Getter
 // voilates liskov's
 public class ParkingLane {
 
-    int laneId;
-    private Map<Integer, ParkingSpot> lane= new HashMap<>();;
+    private Integer laneId;
+    private Map<Integer, ParkingSpot> lane;
+    public ParkingLane(Integer laneId) {
+        this.laneId = laneId;
+        this.lane = new HashMap<>();
+        //System.out.println(laneId+ ":" +lane.size());
 
-    public ParkingLane(int NumberOfSpotPerLane) {
-
-
-        for (int i = 1; i <= NumberOfSpotPerLane; i++) {
-            if (i == 1) {
-                lane.put(i, new ParkingSpot(i + "", "Bike"));
-            } else if (i == 2 || i == 3) {
-                lane.put(i, new ParkingSpot(i + "", "Truck"));
-            } else {
-                lane.put(i, new ParkingSpot(i + "", "Car"));
-            }
-        }
     }
 
+    public void addSpot(int Id, VehicleType type) {
+        lane.put(Id, new ParkingSpot(Id, type));
+        //System.out.println(this.laneId+ ":"+lane.size());
+    }
+
+    public ParkingSpot getSpot(int Id) {
+        return lane.get(Id);
+    }
+
+    public int getFreeCount() {
+        int freeCount = 0;
+        for (ParkingSpot spot : lane.values()) {
+            if (!spot.isOccupied())
+                freeCount++;
+        }
+        return freeCount;
+    }
+
+    public int getOccupiedCount() {
+        return lane.size() - getFreeCount();
+    }
 
 }
