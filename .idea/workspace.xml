@@ -5,14 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c561aad9-b3a0-4688-b329-8d7ec1fa6436" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ParkingLot/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ParkingLot/TicketingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ParkingLot/TransportVehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ParkingLot/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ParkingLot/Bike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ParkingLot/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ParkingLot/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ParkingLot/ParkingLane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ParkingLot/ParkingLane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ParkingLot/ParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ParkingLot/ParkingSpot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ParkingLot/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ParkingLot/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ParkingLot/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ParkingLot/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ParkingLot/VehicleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ParkingLot/VehicleType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ParkingLot/driverClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ParkingLot/driverClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/accessModifiers/classWithPrivateMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/accessModifiers/classWithPrivateMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/accessModifiers/defaultClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/accessModifiers/defaultClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/accessModifiers/protectedClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/accessModifiers/protectedClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/accessModifiersPackage/defaultClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/accessModifiersPackage/defaultClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functional_programming/Abstraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional_programming/Abstraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functional_programming/Function_Ex3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional_programming/Function_Ex3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functional_programming/mathFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional_programming/mathFunctions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -24,12 +56,89 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.notifications&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Application.driverClass">
+    <configuration name="Reciperunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional_programming.Reciperunner" />
+      <module name="spark_java_examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functional_programming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="classWithPrivateMethodsB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="accessModifiers.classWithPrivateMethodsB" />
+      <module name="spark_java_examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="accessModifiers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="defaultClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="accessModifiersPackage.defaultClassTest" />
+      <module name="spark_java_examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="accessModifiersPackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="driverClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ParkingLot.driverClass" />
+      <module name="spark_java_examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ParkingLot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="parkingSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional_programming.parkingSystem" />
+      <module name="spark_java_examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functional_programming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.driverClass" />
+        <item itemvalue="Application.classWithPrivateMethodsB" />
+        <item itemvalue="Application.defaultClassTest" />
+        <item itemvalue="Application.parkingSystem" />
+        <item itemvalue="Application.Reciperunner" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,5 +160,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/ParkingLot/driverClass.java</url>
+          <line>4</line>
+          <properties class="ParkingLot.driverClass" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

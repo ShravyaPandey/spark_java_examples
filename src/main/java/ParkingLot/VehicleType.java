@@ -1,5 +1,5 @@
 package ParkingLot;
 
 public enum VehicleType {
-    CAR,TRUCK,BIKE;
+    CAR,TRUCK,BIKE,UNIVERSAL;
 }
